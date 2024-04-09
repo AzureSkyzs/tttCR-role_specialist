@@ -12,7 +12,7 @@ while you have your vest on you and you are the last innocent alive you do x2 da
 ROLE.team = ROLE_TEAM_INNOCENT
 
 ROLE.shop = nil
-ROLE.loadout = {}
+ROLE.loadout = {"weapon_spec_vest"}
 
 ROLE.startingcredits = nil
 
