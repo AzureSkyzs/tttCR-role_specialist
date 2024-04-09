@@ -28,15 +28,22 @@ ROLE.shouldactlikejester = nil
 
 ROLE.translations = {}
 
---if SERVER then
---    CreateConVar("ttt_specialist_finalextra_dmg_slider", "0", FCVAR_NONE, "This is a slider to decide the extra dmg the specialist get when they are the last alive", 0, 2)
---end
+if SERVER then
+    CreateConVar("ttt_specialist_extradmg_slider", "2", FCVAR_NONE, "This is a slider that changes the damage the specialist does when last inno is alive", 0, 10)
+    CreateConVar("ttt_specialist_vest_time_slider", "5", FCVAR_NONE, "This is a slider that changes the time the specialists vest lasts", 0, 10)
+
+end
 ROLE.convars = {}
---table.insert(ROLE.convars, {
---    cvar = "ttt_summoner_slider",
---    type = ROLE_CONVAR_TYPE_NUM,
---    decimal = 1
---})
+table.insert(ROLE.convars, {
+    cvar = "ttt_specialist_extradmg_slider",
+    type = ROLE_CONVAR_TYPE_NUM,
+    decimal = 1
+})
+table.insert(ROLE.convars, {
+    cvar = "ttt_specialist_vest_time_slider",
+    type = ROLE_CONVAR_TYPE_NUM,
+    decimal = 1
+})
 
 RegisterRole(ROLE)
 
