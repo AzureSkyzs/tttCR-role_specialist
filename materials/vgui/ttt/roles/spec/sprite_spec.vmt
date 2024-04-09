@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/ttt/roles/spec/sprite_spec"
+	"$translucent" 1
+}

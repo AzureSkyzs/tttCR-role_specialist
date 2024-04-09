@@ -6,7 +6,8 @@ ROLE.nameplural = "Specialists"
 ROLE.nameext = "a Specialist"
 ROLE.nameshort = "spec"
 
-ROLE.desc = [[At any point you can put on your vest and reflect damage for 5 second while you have your vest on you and you are the last innocent alive you do x2 damage]]
+ROLE.desc = [[At any point you can put on your vest and reflect damage for 5 second
+while you have your vest on you and you are the last innocent alive you do x2 damage]]
 
 ROLE.team = ROLE_TEAM_INNOCENT
 
